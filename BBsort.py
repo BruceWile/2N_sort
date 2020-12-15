@@ -17,7 +17,7 @@ if (arraySize < listSize or arraySize > 1000):
     quit()
 
 # Create array and assign zeros to all elements
-sortArray = [0] * arraySize
+sortArray = [0] * (arraySize + 1)
 
 # Create List
 unsortList = []
